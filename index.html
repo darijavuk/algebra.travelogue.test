@@ -11,7 +11,7 @@
     <div class="wrapper">
       <div class="header">
         <img class="logo" src="./media/Logo.svg" alt="Travelogue logo">
-        <div class="navigation">
+        <div class="navigation fade-in stagged">
           <a href="#home" class="p color-text active">Home</a>
           <a href="./europe.html" class="p color-text">Europe</a>
           <a href="#asia" class="p color-text">Asia</a>
@@ -34,7 +34,7 @@
 
         <div class="articles">
           <div class="article">
-            <img src="./media/Image-2.png" alt="Europe">
+            <img class="aricle-image" src="./media/Image-2.png" alt="Europe">
             <div class="article-content">
               <div class="h2 color-primary">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit
@@ -95,16 +95,21 @@
               Join our mailing list to enter giveaways, receive promotional offerings, and keep in touch with the latest updates.
             </div>
           </div>
-          <form class="newsletter-form" action="" method="GET">
-            <label for=""></label>
+
+          <form action="" method="GET" class="newsletter-form">
+            <div>
+              <label for=""></label>
               <input type="text" name="firstName" placeholder="First name">
-            <label for=""></label>
+            </div>
+            <div>
+              <label for=""></label>
               <input type="email" name="email" placeholder="Email address">
+            </div>
             <button type="submit">Sign up</button>
           </form>
         </div>
       </div>
-        <div class="footer">
+      <div class="footer">
             <div class="small color-text">&copy; TRAVELOGUE, 2020 - <a class="color-primary" href="mailto:info@travelogue.example.com">info@travelogue.example.com</a>
         </div>
       </div>
