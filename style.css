@@ -16,39 +16,35 @@ Animations
   }
 }
 
-.fade-in.staggered {
-    animation: fade-in 3s linear;
-    animation-fill-mode: both;
-  }
+.fade-in {
+  animation: fade-in 1s linear;
+  animation-fill-mode: both;
+}
 
 .delay-1 {
   animation-delay: 1s;
 }
 
-.fade-in.staggered > {
-    animation: fade-in 02.s linear;
-    animation-fill-mode: both;
-  }  
+.fade-in.staggered > * {
+  animation: fade-in 1s linear;
+  animation-fill-mode: both;
+}
+.fade-in.staggered > *:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.fade-in.staggered > *:nth-child(3) {
+  animation-delay: 1s;
+}
+.fade-in.staggered > *:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.fade-in.staggered > *:nth-child(5) {
+  animation-delay: 2s;
+}
+.fade-in.staggered *:nth-child(n + 6) {
+  animation-delay: 2.5s;
+}
 
-  .fade-in.staggered > *:nth-child(2) {
-    animation-delay: 0.4s;
-  }
-
-  .fade-in.staggered > *:nth-child(3) {
-    animation-delay: 0.6s;
-  }
-
-  .fade-in.staggered > *:nth-child(4) {
-    animation-delay: 0.8s;
-  }
-
-  .fade-in.staggered > *:nth-child(5) {
-    animation-delay: 1s;
-  }
-    
-  .fade-in.staggered > *:nth-child(n + 6) {
-    animation-delay: 0.1s;
-  }
     
 
 /*
